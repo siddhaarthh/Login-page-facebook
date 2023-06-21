@@ -1,0 +1,132 @@
+    .outer-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo
+    {
+       margin-left: 28ch; 
+       margin-top: 20ch; 
+       height: 106px;
+       background: #f0f2f5;
+    }
+
+    .pa
+    {
+        margin-top: 0px;
+        margin-left: 16ch;
+        font-size: 4ch;
+    }
+
+    .box
+    {
+        /* float: right; */
+        margin-top: 150px;
+        margin-left: 30px;
+        width: 350px;
+        border: 1px solid black;
+        text-shadow: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        border-color: white;
+        padding-bottom: 30px;
+        
+    }
+    .blok
+    {
+        padding-right: 350px;
+        size: 20px;
+        padding: 12px 24px;
+        border: 2px solid;
+        border-radius: 1px;
+        margin-bottom: 3px;
+        border-radius: 5px;
+        background: white;
+        border-color: rgb(215, 221, 221);
+    }
+
+    #login
+    {
+        background: #1877f2;
+        text-align: center;
+        font-style: normal;
+        border-radius: 5px;
+        
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-top: 15px;
+    }
+
+    #fp
+    {
+        text-align: center;
+        color: #1877f2;
+        margin-top: 30px;
+        text-decoration: none;
+       padding-top: 15px;
+       margin-left: 120px;
+    }
+
+    #ca_btn
+    {
+        background-color: #42b72a;
+        text-align: center;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 400px;
+        margin-left: 80px;
+        margin-right: 40px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+
+    .page
+    {
+        background: #f0f2f5;
+    }
+
+    .nw_page
+    {
+        
+       margin-top: 15px;
+       margin-left: 30px;
+       /* float: right; */
+       /* margin-left: 100px; */
+       /* text-align: end; */
+    }
+
+    .C_page
+    {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .container
+    {
+        display:flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 1235)
+    {
+        .logo{
+            margin-left: 5px;
+            margin-top: 20px;
+            height: 50px;
+        }
+        .pa{
+            margin-left: 4ch;
+        }
+    }
